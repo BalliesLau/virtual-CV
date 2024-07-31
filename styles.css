@@ -17,6 +17,52 @@ body, h1, h2, h3, h4, p, ul, li, a {
   h4 { font-size: clamp(16px, 2vw, 20px)}
   
   /* Global styles */
+  img {
+    border-radius: 14px;
+  }
+
+  .container {
+    position: relative;
+    width: 70%;
+  }
+  
+  .image {
+    display: block;
+    width: 35%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background: radial-gradient(circle at 50% 50%, rgb(14, 72, 222) 5.2%, rgb(3, 22, 65) 75.3%);;
+    overflow: hidden;
+    width: 35%;
+    height: 0;
+    transition: .5s ease;
+    border-radius: 14px;
+  }
+  
+  .container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+    position: absolute;
+  }
+  
+  .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
   body {
     background: linear-gradient(to top /*at 12.3% 19.3%*/, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%);;
     color: #fff;
