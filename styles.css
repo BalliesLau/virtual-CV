@@ -11,9 +11,10 @@ body, h1, h2, h3, p, ul, li, a {
   }
   
   /* For heading elements, adjust the clamp values accordingly to ensure they scale up more significantly */
-  h1 { font-size: clamp(24px, 5vw, 32px); }
+  h1 { font-size: clamp(44px, 5vw, 32px); }
   h2 { font-size: clamp(20px, 4vw, 28px); }
   h3 { font-size: clamp(18px, 3.5vw, 24px); }
+  h4 { font-size: clamp(16px, 2vw, 20px)}
   
   /* Global styles */
   body {

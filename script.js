@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const sectionTop = section.getBoundingClientRect().top;
       const sectionHeight = section.offsetHeight;
       const pageHeight = document.documentElement.scrollHeight;
-      const threshold = window.innerHeight - 150; // Adjust this value if necessary
+      const threshold = window.innerHeight - 300; // Adjust this value if necessary
 
       if (sectionTop < threshold || (window.scrollY + window.innerHeight >= pageHeight - sectionHeight / 2)) {
         section.classList.add("animate");
