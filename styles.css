@@ -17,12 +17,12 @@ body, h1, h2, h3, p, ul, li, a {
   
   /* Global styles */
   body {
-    background: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%);;
+    background: linear-gradient(to top /*at 12.3% 19.3%*/, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%);;
     color: #fff;
   }
   
   header {
-    background: linear-gradient(109.5deg, rgb(13, 11, 136) 9.4%, rgb(86, 255, 248) 78.4%);;
+    background: linear-gradient(to bottom, rgb(13, 11, 136) 9.4%, rgb(86, 255, 248) 78.4%);;
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -57,7 +57,7 @@ body, h1, h2, h3, p, ul, li, a {
   }
   
   .section-content {
-    background: linear-gradient(to top, #09203f 0%, #537895 100%);;
+    background: linear-gradient(to bottom, #13417e 0%, #537895 100%);;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -78,7 +78,7 @@ body, h1, h2, h3, p, ul, li, a {
     display: none;
   }
   
-  /* Responsive and Interaction Styles */
+  /* Responsive & Interaction Styles */
   @media (max-width: 768px) {
     header {
       padding: 10px 0;
