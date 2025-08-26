@@ -5,155 +5,131 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liam Grobler CV</title>
     <link rel="stylesheet" href="styles.css">
-    
 </head>
 <body>
     <header>
-        <h1>Liam Grobler</h1>
-        <hr id = "hr1">
+        <div class="header-content">
+            <img src="Myself.jpg" alt="Liam Grobler" class="profile-pic"/>
+            <div>
+                <h1>Liam Grobler</h1>
+                <p class="subtitle">BSc. Information Technology Student</p>
+            </div>
+        </div>
         <nav>
             <ul>
-                <li><a href="personal details">Personal Details</a></li>
+                <li><a href="#personal-details">Personal Details</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="languages">Languages</a></li>
-                <li><a href="#contact">Contact Details</a></li>
+                <li><a href="#languages">Languages</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+        <hr>
     </header>
 
-    <section id="personal details" class="section">
-        <h2>Personal Details</h2>
-        <div class="section-content" >
-            <div class="container">
-                <img src="Myself.jpg" alt="A picture of Myself" class="image"/>
-            <div class="overlay">
-                <div class="text"> Liam Grobler</div>
-            </div>
-            </div>
-            
-            <ul>
-                <li><b>Date of birth:</b> 12 Dec 2002</li>
-                <li><b>Nationality:</b> South-African</li>
-                <li><b>ID:</b> 0212125210089</li>
-                <li><b>Current Address:</b> 8 College Avenue,
-                    Potchefstroom, 2520,
-                    South Africa</li>
-                <li>PDF of CV: <a href="Liam Grobler-CV.pdf">CV</a></li>
+    <main>
+        <section id="personal-details" class="section">
+            <h2>Personal Details</h2>
+            <ul class="details-list">
+                <li><strong>Date of birth:</strong> 12 Dec 2002</li>
+                <li><strong>Nationality:</strong> South-African</li>
+                <li><strong>ID:</strong> 0212125210089</li>
+                <li><strong>Current Address:</strong> 8 College Avenue, Potchefstroom, 2520, South Africa</li>
+                <li><strong>PDF of CV:</strong> <a href="Liam Grobler-CV.pdf" target="_blank">Download CV</a></li>
             </ul>
-        </div>
-    </section>
+        </section>
 
-    <section id="about" class="section">
-        <h2>About Me</h2>
-        <div class="section-content">
-            <p>
-                <i>As a motivated 21-year-old, I am eager to embark on
-                my professional journey. My university experience has
-                equipped me with essential skills, particularly through
-                my involvement in the esteemed Laureus men's
-                residence. In my second year, I was elected to the
-                house committee, where I honed my expertise in Media
-                & Communication, Recruitment, and Archives. This
-                experience underscores my unwavering dedication to
-                personal and community development, showcasing my
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p class="about-text">
+                As a motivated 21-year-old, I am eager to embark on my professional journey.
+                My university experience has equipped me with essential skills, particularly
+                through my involvement in the esteemed Laureus men's residence. In my second
+                year, I was elected to the house committee, where I honed my expertise in
+                Media & Communication, Recruitment, and Archives. This experience underscores
+                my unwavering dedication to personal and community development, showcasing my
                 proactive approach and leadership capabilities.
-                </i>
             </p>
-        </div>
-    </section>
+        </section>
 
-    <section id="education" class="section">
-        <h2>Education</h2>
-        <div class="section-content">
-            <ul>
-                <li>
-                    <h3>BSc. Information Technology<br/>
-                        @ Nort West University, Potchefsrtoom<br/>
-                        2022 - present
-                    </h3>
-                    <br/>
-                    <p><i>
-                        Pursuing a Bachelor of Science in IT,
-                        driving innovation since 2022
-                        Harnessed advanced tech skills in
-                        software and systems development
-                    </i></p>
-                    <h4>Relevant modules:</h4>
-                    <ul>
-                        <li>Accounting</li>
-                        <li>Business Management</li>
-                        <li>Computing & Programming</li>
-                        <li>Mathematical Techniques</li>
-                        <li>Discrete Mathematics</li>
-                        <li>Descriptive Statistics</li>
-                        <li>Apps and advanced user interface</li>
-                        <li>Communication skills</li>
-                        <li>Information security</li>
-                        <li>Data Analytics</li>
-                        <li>Systems Analysis and Design I & II</li>
-                        <li>Object Oriented Programming</li>
-                        <li>Advanced Databases</li>
-                        <li>Decision Support Systems I & II</li>
-                        <li>Artificial Intellegence</li>
-                        <li>Computer Networks</li>
-                        <li>Operating Systems</li>
-                    </ul>
-                </li>
-                <br/>
-                <li>
-                    <h3>National Senior Certificate - Hoërskool Pietersburg</h3>
-                    <br/>
-                    <p>
-                        Proficient in Afrikaans and English<br/>
-                        Strong foundation in Mathematics<br/>
-                        Skilled in Computer Applications Technology (CAT)<br/>
-                        Knowledgeable in Geography<br/>
-                        Solid understanding of Natural Science
-                    </p>
-                    <p>Obtained with 2 Destinctions</p>
-                </li>
-            </ul>
-        </div>
-    </section>
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <div class="education-entry">
+                <h3>BSc. Information Technology</h3>
+                <p class="institution">@ North West University, Potchefstroom &mdash; 2022 - Present</p>
+                <p>
+                    Pursuing a Bachelor of Science in IT, driving innovation since 2022. Harnessed advanced tech skills in software and systems development.
+                </p>
+                <h4>Relevant Modules:</h4>
+                <ul class="modules-list">
+                    <li>Accounting</li>
+                    <li>Business Management</li>
+                    <li>Computing & Programming</li>
+                    <li>Mathematical Techniques</li>
+                    <li>Discrete Mathematics</li>
+                    <li>Descriptive Statistics</li>
+                    <li>Apps and Advanced User Interface</li>
+                    <li>Communication Skills</li>
+                    <li>Information Security</li>
+                    <li>Data Analytics</li>
+                    <li>Systems Analysis and Design I & II</li>
+                    <li>Object Oriented Programming</li>
+                    <li>Advanced Databases</li>
+                    <li>Decision Support Systems I & II</li>
+                    <li>Artificial Intelligence</li>
+                    <li>Computer Networks</li>
+                    <li>Operating Systems</li>
+                </ul>
+            </div>
+            <div class="education-entry">
+                <h3>National Senior Certificate</h3>
+                <p class="institution">Hoërskool Pietersburg</p>
+                <ul>
+                    <li>Proficient in Afrikaans and English</li>
+                    <li>Strong foundation in Mathematics</li>
+                    <li>Skilled in Computer Applications Technology (CAT)</li>
+                    <li>Knowledgeable in Geography</li>
+                    <li>Solid understanding of Natural Science</li>
+                </ul>
+                <p>Obtained with 2 Distinctions</p>
+            </div>
+        </section>
 
-    <section id="skills" class="section">
-        <h2>Skills</h2>
-        <div class="section-content">
-            <ul>
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <ul class="skills-list">
                 <li>Python</li>
                 <li>C++</li>
                 <li>HTML</li>
                 <li>C#</li>
-                <li>Vidual Studios</li>
+                <li>Visual Studio</li>
                 <li>VS Code</li>
-                <li>Java</li>               
+                <li>Java</li>
             </ul>
-        </div>
-    </section>
+        </section>
 
-    <section id="languages" class="section">
-        <h2>Languages</h2>
-        <div class="section-content">
-            <ul>
+        <section id="languages" class="section">
+            <h2>Languages</h2>
+            <ul class="languages-list">
                 <li>English</li>
                 <li>Afrikaans</li>
             </ul>
-        </div>
-    </section>
+        </section>
 
-    <section id="contact" class="section">
-        <h2>Contact Details</h2>
-        <div class="section-content">
-            <ul>
-                <li><b>Phone:</b> 071 352 2953</li>
-                <li><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/liam-grobler-4665a7320" target="_blank">LinkedIn</a></li>
-                <li><b>GitHub:</b> <a href="https://github.com/BalliesLau" target="_blank">GitHub</a></li>
-                <li><b>Email:</b> groblerliam@gmail.com</li>
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <ul class="contact-list">
+                <li><strong>Phone:</strong> 071 352 2953</li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/liam-grobler-4665a7320" target="_blank">liam-grobler-4665a7320</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/BalliesLau" target="_blank">BalliesLau</a></li>
+                <li><strong>Email:</strong> <a href="mailto:groblerliam@gmail.com">groblerliam@gmail.com</a></li>
             </ul>
-        </div>
-    </section>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Liam Grobler. All rights reserved.</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
